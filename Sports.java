@@ -1,16 +1,16 @@
 public class Sports
 {
   public String sport;
-  public String team;
+  public String name;//team or player name
   public int score;
   public boolean isTeam;
   public boolean isWinner;
 
   //Constructors
-  public Sports(String sport, String team, int score, boolean isTeam, boolean isWinner)
+  public Sports(String sport, String name, int score, boolean isTeam, boolean isWinner)
   {
-    this.team = team;
-    this.sport = team;
+    this.sport = sport;
+    this.name = name;
     this.score = score;
     this.isTeam = isTeam;
     this.isWinner = isWinner;
@@ -19,8 +19,8 @@ public class Sports
   //toString
   public String toString()
   {
-    return "Team = " + team + 
-            "\nSport = " + sport +
+    return "Sport = " + sport + 
+            "\nName = " + name +
             "\nScore = " + score +
             "\nIs it a Team Sport = " + isTeam +
             "\nDid they win = " + isWinner;

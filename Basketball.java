@@ -15,7 +15,7 @@ class Basketball extends Sports
     this.passes = passes;
     this.fouls = fouls;
     this.gameMVP = gameMVP;
-  }
+  }//end constructor
 
   //toString
   public String toString()
@@ -27,5 +27,5 @@ class Basketball extends Sports
               "\nFouls = " + fouls +
               "\nGame MVP = " + gameMVP;
     return output;
-  } 
-}
+  }//end toString
+}//end Class Basketball
