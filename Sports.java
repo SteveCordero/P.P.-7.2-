@@ -1,4 +1,4 @@
-public class Sports
+public abstract class Sports
 {
   private String sport;
   private String name;//team or player name
@@ -26,11 +26,13 @@ public class Sports
     this.sport = sport;
   }//end setter for String sport
 
-  //Brain Method
+  //Brain Methods
   public String gameStart()
   {
     return sport + " starts off with a coin toss";
   }//end brain method
+
+  public abstract String maxPlayers();//abstract method
 
   //toString
   public String toString()

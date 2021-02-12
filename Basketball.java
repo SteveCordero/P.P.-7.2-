@@ -23,6 +23,10 @@ class Basketball extends Sports
     return super.getSport() + " starts off with a tipoff";
   }//end overridden method
 
+  public String maxPlayers()
+  {
+    return "There can be a total of 5 players per team";
+  }//end 
   //toString
   public String toString()
   {
