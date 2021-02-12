@@ -4,6 +4,10 @@ class Main
   {
     Sports ruggleball = new Sports("Ruggleball","Smoothies", 55 , true, false);
 
+    Basketball Lakers = new Basketball("Basketball", "Lakers", 108 , true, true, 10 , 20, 43, 8, "Lebron James");
+
     System.out.println(ruggleball.toString());
+    System.out.println("\n------------------------\n");
+    System.out.println(Lakers.toString());
   }//end main method
 }//end main class aka the driver

@@ -25,7 +25,4 @@ public class Sports
             "\nIs it a Team Sport = " + isTeam +
             "\nDid they win = " + isWinner;
   }
-
-
-
 }
