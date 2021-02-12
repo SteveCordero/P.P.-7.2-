@@ -11,6 +11,7 @@ class Main
     System.out.println(ruggleball.toString());
     System.out.println("\n------------------------\n");
     System.out.println(Lakers.toString());
+    System.out.println(Lakers.gameStart());
     System.out.println("\n------------------------\n");
     System.out.println(Federer.toString());
   }//end main method

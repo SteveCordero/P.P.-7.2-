@@ -1,10 +1,10 @@
 public class Sports
 {
-  public String sport;
-  public String name;//team or player name
-  public int score;
-  public boolean isTeam;
-  public boolean isWinner;
+  private String sport;
+  private String name;//team or player name
+  private int score;
+  private boolean isTeam;
+  private boolean isWinner;
 
   //Constructors
   public Sports(String sport, String name, int score, boolean isTeam, boolean isWinner)
@@ -16,6 +16,22 @@ public class Sports
     this.isWinner = isWinner;
   }//end constructor
 
+  //Getters and Setters
+  public String getSport()
+  {
+    return sport;
+  }//end getter for String sport
+  public void setSport(String sport)
+  {
+    this.sport = sport;
+  }//end setter for String sport
+
+  //Brain Method
+  public String gameStart()
+  {
+    return sport + " starts off with a coin toss";
+  }//end brain method
+
   //toString
   public String toString()
   {
@@ -25,4 +41,4 @@ public class Sports
             "\nIs it a Team Sport = " + isTeam +
             "\nDid they win = " + isWinner;
   }
-}
+}//end Sports Class

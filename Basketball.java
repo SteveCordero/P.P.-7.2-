@@ -17,6 +17,12 @@ class Basketball extends Sports
     this.gameMVP = gameMVP;
   }//end constructor
 
+  //Brain method
+  public String gameStart()
+  {
+    return super.getSport() + " starts off with a tipoff";
+  }//end overridden method
+
   //toString
   public String toString()
   {
