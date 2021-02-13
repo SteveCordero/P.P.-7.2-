@@ -26,6 +26,46 @@ public abstract class Sports
     this.sport = sport;
   }//end setter for String sport
 
+  public String getName()
+  {
+    return name;
+  }//end getter for String name
+
+  public void setName(String name)
+  {
+    this.name = name;
+  }//end setter for String name
+
+  public int getScore()
+  {
+    return score;
+  }//end getter for int score
+
+  public void setScore(int score)
+  {
+    this.score = score;
+  }//end setter for int score
+
+  public boolean getIsTeam()
+  {
+    return isTeam;
+  }//end getter for isTeam
+
+  public void setIsTeam(boolean isTeam)
+  {
+    this.isTeam = isTeam;
+  }//end setter for isTeam
+  
+  public boolean getIsWinner()
+  {
+    return isWinner;
+  }//end getter for isWinner
+
+  public void setIsWinner(boolean isWinner)
+  {
+    this.isWinner = isWinner;
+  }//end setter for isWinner
+
   //Brain Methods
   public String gameStart()
   {

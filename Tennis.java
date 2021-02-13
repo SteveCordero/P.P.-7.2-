@@ -15,6 +15,39 @@ class Tennis extends Sports
     this.isDoubles = isDoubles;
   }//end constructor
 
+  //Setters and Getters
+  public int getOuts()
+  {
+    return outs;
+  }//end getter for outs
+
+  public void setOuts(int outs)
+  {
+    this.outs = outs;
+  }//end setter for outs
+
+  public int getAces()
+  {
+    return aces;
+  }//end getter for aces
+
+  public void setAces(int aces)
+  {
+    this.aces = aces;
+  }//end setter for aces
+
+  public int getSets()
+  {
+    return sets;
+  }//end getter for sets
+
+  public void setSets(int sets)
+  {
+    this.sets = sets;
+  }//end setter for sets
+
+
+  //brain methods
   public String maxPlayers()
   {
     if(isDoubles)

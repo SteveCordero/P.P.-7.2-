@@ -17,6 +17,57 @@ class Basketball extends Sports
     this.gameMVP = gameMVP;
   }//end constructor
 
+  //Setters and Getters
+  public int getThreePointers()
+  {
+    return threePointers;
+  }//end getter for threePointers
+
+  public void setThreePointers(int threePointers)
+  {
+    this.threePointers = threePointers;
+  }//end setter for threePointers
+
+  public int getFreeThrows()
+  {
+    return freeThrows;
+  }//end getter for freeThrows
+
+  public void setFreeThrows(int freeThrows)
+  {
+    this.freeThrows = freeThrows;
+  }//end setter for freeThrows
+
+  public int getPasses()
+  {
+    return passes;
+  }//end getter for passes
+
+  public void setPasses(int passes)
+  {
+    this.passes = passes;
+  }//end setter for passes
+
+  public int getFouls()
+  {
+    return fouls;
+  }//end getter for fouls
+
+  public void setFouls(int fouls)
+  {
+    this.fouls = fouls;
+  }//end setter for Fouls
+
+  public String getGameMVP()
+  {
+    return gameMVP;
+  }//end getter for gameMVP
+
+  public void setGameMVP(String gameMVP)
+  {
+    this.gameMVP = gameMVP;
+  }//end setter for gameMVP
+
   //Brain method
   public String gameStart()
   {
